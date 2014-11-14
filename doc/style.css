@@ -1,0 +1,72 @@
+body {
+  color: #333;
+  background: url(Rough-Grey.jpg);
+  font-size: 16px;
+  font-family: 'Droid Serif', serif;
+  line-height: 1.5;
+}
+
+#container {
+  max-width: 1000px;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-up: 20px;
+  padding-down: 20px;
+  position: relative;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: red;
+  font-size: 300%;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: red;
+  font-size: 175%;
+  text-align: center;
+}
+
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 150%;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 100%;
+}
+
+ol > li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+
+ol > li > a {
+  text-decoration: none;
+  color: red;
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #ccc;
+  font-size: 120%;
+  padding-right: 70px;
+}
+
+li > a:hover {
+  background: #5A83E0;
+  color: #FFF;
+  border: 1px solid #3D67C8;
+}
+
+
+a,
+a:visited {
+  color: black;
+}
